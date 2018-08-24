@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-image: url(img/stars.jpg);
+    background-size:cover;
+}
+
+
+
+.toggle{
+    
+   position: fixed;
+   padding: 15px 20px 15px 15px;
+   margin-top:70px;
+   color: aliceblue;
+   background: rgba(17, 17, 17,0.9) ;
+   border-bottom: solid 2px white;
+   border-right: solid 2px white;
+   border-top: solid 2px white;
+   z-index: 1000000;
+   font-size: 1.0em;
+   opacity: 0;
+   cursor: pointer;
+   font-family: 'Californian FB';
+    font-weight:800; 
+}
+
+.toggle:hover{
+    background: rgb(0,0,0);
+}
+
+.sidebar{
+    margin-top: 40px;
+    position: fixed;
+    width: 250px;
+    margin-left: 0px;
+    overflow: hidden;
+    height: 70vh;
+    max-height: 100vh;
+    opacity: 0.9;
+    background-color: rgba(17, 17, 17,0.9);
+    transition: all 0.3s easy-in-out;
+}
+
+
+.fa-times{
+    right: 10px;
+    top:10px;
+    opacity: 0.7;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    transition: all 0.3s easy-in-out;
+}
+
+.fa-times:hover{
+    opacity:1;
+}
+
+#boxed_item{
+    font-family: 'Californian FB';
+    font-weight: 200;
+    padding: 10px 20px;
+    display: inline-block;
+    border: solid 2px white;
+    width: 140px;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: aliceblue;
+    margin-top: 70px;
+    font-weight:700;
+    
+}
+
+.information_selection{
+    margin: 20px 0;
+    display: block;
+    margin-left:-28px;
+    width:224px;
+    
+}
+
+.information_item{
+    font-weight: 200;
+    font-family: 'Californian FB';
+    color: white;
+    padding: 14px 2px ;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #D8D8D8;
+    border-bottom: solid 1px #D8D8D8;
+    transition: all 0.3s easy-in-out;
+    list-style: none;
+    
+}
+
+.hide{
+    margin-left: -250px;
+}
+
+.opacity_one
+{
+    opacity:1;
+    transition: all 0.3s easy-in-out;
+}
+
+#box2{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.planetChanger{
+    
+   font-family: 'Californian FB';
+    padding: 0.35rem 1.2rem;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    background: rgba(17, 17, 17,0.9);
+    font-size : 1.0em;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 75px;
+    font-weight:800;     
+  
+    
+   
+    
+}
+
+.planetChanger:hover
+{
+    background: rgb(0,0,0);
+}
+
+
+#information_type{
+    margin-left: 2px;
+    display: inline;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+
+#information_weight{
+     margin-left: 2px;
+    display: inline;
+    color: aliceblue;
+    font-size: 14px;
+    
+}
+
+
+#information_radius{
+     margin-left: 2px;
+    display: inline;
+    color: aliceblue;
+    font-size: 14px;
+    
+}
+
+
+
+#information_radiusEq{
+     margin-left: 2px;
+    display: inline;
+    color: aliceblue;
+    font-size: 14px;
+    
+}
+
+
+#information_Circuit{
+     margin-left: 2px;
+    display: inline;
+    color: aliceblue;
+    font-size: 14px;
+    
+}
+
+
+#information_Age{
+     margin-left: 2px;
+    display: inline;
+    color: aliceblue;
+    font-size: 14px;
+    
+}
+
+
+
+
+
+
+
